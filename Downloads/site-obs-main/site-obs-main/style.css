@@ -1,0 +1,256 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+/*TOPINHO DO SITE*/
+#top {
+    background-color: #070c12;
+}
+
+.left a {
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.left{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    padding: 18px 0;
+}
+
+/*BANNER SITE*/
+#banner {
+    background-image: url(./imagens/banner-site.jpg);
+    background-repeat: no-repeat;
+    height: 910px;
+    background-size: cover;
+}
+
+.text-banner h2{
+    font-size: 18px;
+    margin-top: 23%;
+    font-weight: 600;
+    color: #3075b0;
+}
+
+.text-banner h1 {
+    font-size: 65px;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.text-banner p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 19px;
+    padding-top: 15px;
+}
+
+#btn-banner {
+    background: linear-gradient(173deg, rgba(23,80,129,1) 19%, rgba(51,117,177,1) 91%);
+    color: #fff;
+    padding: 13px 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+/*MENU*/
+.nav-menu {
+    padding: 66px 0;
+}
+
+#banner ul {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+#banner li {
+    list-style: none;
+    padding: 0 15px;
+}
+
+#banner li a {
+    color: #fff;
+    font-weight: 400;
+}
+
+#banner li a:hover {
+    color: #175081;
+    font-weight: 400;
+}
+
+/*CORPO SOLUÇÕES*/
+#soluction {
+    background-color: #02060e;
+}
+
+.melhores h2 {
+    color: #fff;
+    padding: 70px 0 20px 0 ;
+    text-transform: uppercase;
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.seguraca {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.monitoramento h3 {
+    color: #fff;
+
+}
+.monitoramento p {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+
+#btn-site {
+    background: linear-gradient(173deg, rgba(23,80,129,1) 19%, rgba(51,117,177,1) 91%);
+    color: #fff;
+    padding: 13px 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-weight: 500;
+    margin-top: 20px ;
+}
+
+.seg {
+    margin-top: 40px ;
+}
+.service{
+    padding-bottom: 50px;
+}
+
+/*CORPO NOSSA HISTORIA*/
+.nossa {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.text-historia{
+    margin-bottom: 100px;
+}
+
+.nossa h3 {
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #0c2e4e;
+    font-weight: 700;
+}
+
+.nossa h4 {
+    color: #235f96;
+    font-weight: 500;
+}
+
+.nossa p {
+    font-size: 19px;
+    font-weight: 400;
+    color: #45576e;
+    padding: 20px 203px 0 0;
+    text-align: justify;
+    word-spacing: 1px;
+}
+
+#btn-nossa {
+    border: 1px solid #45576e;
+    padding: 16px 23px;
+    font-size: 17px;
+    border-radius: 12px;
+    color: #45576e;
+}
+
+.conheca {
+    margin-top: 35px;
+}
+
+/*CORPO UMA EMPRESA*/
+#empresa{
+    background: url(./imagens/empresa-obs.jpg) no-repeat center / cover;
+}
+
+.text-empresa h3 {
+    color: #235f96;
+    font-size: 46px;
+    font-weight: 800;
+    padding: 100px 0px 0px 66px;
+}
+
+img.tuor {
+    margin-top: -28px;
+    padding-left: 13px;
+}
+
+.text-empresa p {
+    color: #fff;
+    padding: 4px 96px 0px 30px;
+    font-size: 19px;
+    text-align: justify;
+}
+
+.text-empresa img {
+    margin-left: 0px;
+}
+
+#btn-empresa {
+    background: linear-gradient(173deg, rgba(23,80,129,1) 19%, rgba(51,117,177,1) 91%);
+    color: #fff;
+    padding: 16px 26px;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.empresa-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.text-uma img {
+    margin-top: -13%;
+    margin-left: -8%;
+}
+
+
+footer {
+    
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    margin: auto;
+    min-height: 100vh;
+    
+}
+.teste {
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 500px;
+    width: 500px;
+    
+}
+
+.Leonardo {
+    display: flex;
+    transition: 0.5s ease-in-out;
+    transform: translateX(1);
+}
+ .Leonardo img {
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+}
